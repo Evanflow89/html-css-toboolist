@@ -6,6 +6,12 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: rgb(246, 248, 249);
+}
+
+header {
+    background-color: white;
+    margin-bottom: 50px;
 }
 
 .head img, .head h1 {
@@ -14,3 +20,29 @@ body {
     padding: 10px;
 }
 
+.container {
+    width: 800px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+
+#blue {
+    background-color: rgb(71, 173, 241);
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid;
+    border-radius: 10%;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#white {
+    background-color: white;
+    color: rgb(198, 204, 209);
+    padding: 10px 20px;
+    border: 1px solid;
+    border-radius: 10%;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
