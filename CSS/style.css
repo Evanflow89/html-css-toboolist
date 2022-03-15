@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 0;
+  padding: 0;
     box-sizing: border-box;
 }
 
@@ -54,25 +54,50 @@ header {
     line-height: 2;
 }
 
+.today {
+    line-height: 2;
+}
+
 .circle {
     display: inline-block;
     height: 25px;
     width: 25px;
-    border: 1px solid rgb(71, 173, 241);
+    
     border-radius: 50%;
     text-align: center;
     line-height: 25px;
+    
+}
+.circlev {
     color: rgb(71, 173, 241);
+    border: 1px solid rgb(71, 173, 241);
+} 
+
+.circlex {
+    color: red;
+    border: 1px solid red;
 }
 
 .tag {
     display: inline-block;
     color: white;
-    border-radius: 10px;
-    padding: 8px 12px;
+    border-radius: 30px;
+    padding: 0px 20px;
     font-size: 12px;
 }
 
 .tagblue {
     background-color: rgb(71, 173, 241);
+}
+
+.tagpurple {
+    background-color: rgb(156, 114, 228);
+}
+
+.tagGreen {
+    background-color: rgb(100, 192, 169);
+}
+
+.tagOrange {
+    background-color: rgb(242, 158, 51);
 }
