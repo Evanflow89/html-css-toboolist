@@ -26,6 +26,7 @@ header {
 
 .container {
     width: 800px;
+    height: 600px;
     margin: 0 auto;
     background-color: white;
 }
@@ -38,6 +39,7 @@ h3 {
 }
 
 .buttons {
+    padding-top: 20px;
     margin-bottom: 50px;
 }
 
